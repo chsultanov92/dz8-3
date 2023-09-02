@@ -1,0 +1,45 @@
+body.light-theme {
+    background-color: white; 
+    color: black;
+  }
+  
+  body.dark-theme {
+    background-color: black; 
+    color: white; 
+  }
+  
+  .theme-change {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin: 20px auto;
+    cursor: pointer;
+    
+  }
+  
+  .theme-change-left {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(65, 56, 56);
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+     
+  }
+  
+  .theme-change-right {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(238, 229, 229); 
+    transition: transform 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+  }
